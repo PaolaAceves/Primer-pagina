@@ -1,0 +1,188 @@
+body{
+    background-color: #F2F5EA;
+    color: #2C363F;
+    text-align: justify;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+.titulo{
+    width:100%;
+    height: 100px;
+    /* background-image: url('https://i.pinimg.com/564x/be/70/c7/be70c70eabadc2834cb15a4e5c41fc00.jpg'); */
+    background-image: url(/images/fondo1.jpg);
+    background-size: cover;
+    /* permite que cambie la posición */
+    display: flex;
+    /* de forma vertical */
+    align-items: center;
+    /* de forma horizontal */
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+
+h1 {
+    font-family: "Abril Fatface", serif;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    justify-content: end;
+}
+
+a{
+    color: #F2F5EA;
+    text-decoration: none;
+    font-size: 16px;
+    /* poner un backgroundcolor */  
+    background-color: #E75A7C;
+    margin-right: 10px;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+a:hover{
+    background-color: #2C363F;
+}
+/* contenido */
+/* subtitulos */
+.subIzquierda{
+    display: flex;
+    justify-content: start;
+    margin-left: 4%;
+    font-family: "Fascinate", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.subDerecha{
+    display: flex;
+    justify-content: end;
+    margin-right: 17%;
+    font-family: "Fascinate", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.subCentro{
+    display: flex;
+    justify-content: center;
+    font-family: "Fascinate", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+#parrafo3{
+    display: flex;
+    justify-content: center;
+}
+
+/* primera seccion */
+.seccion1 {
+    display: flex;
+    height: auto;
+    margin-bottom: 10px;
+}
+.seccion1 .parrafo1 {
+    /* El párrafo ocupará el 49% del ancho disponible */
+    margin-right: 3%; /* Espacio entre el párrafo y la imagen */
+    margin-left: 3%;
+    width: 70%;
+    /* margen interno arriba, derecha, abajo,  izquierda*/
+    padding: 2% 5% 2% 5%;
+    /* padding-right: 1%;
+    padding-left: 1%; */
+    background-color: #BBC7A4;
+}
+   
+.seccion1 .container1 {
+    width: 30%; /* La imagen ocupará el 49% del ancho disponible */
+ /* Espacio entre el párrafo y la imagen */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Alinear la imagen a la izquierda */   
+    height: auto;
+}
+.seccion1 .container1 #imagen1{
+    height: 200px;
+    display: flex;
+    margin-left: 5%;
+}
+
+/* segunda seccion */
+.seccion2 {
+    display: flex;
+    height: auto;
+    margin-bottom: 10px;
+}
+.seccion2 .parrafo2 {
+    /* El párrafo ocupará el 49% del ancho disponible */
+    margin-right: 2%; /* Espacio entre el párrafo y la imagen */
+    margin-left: 15%;
+    width: 70%;
+    /* margen interno arriba, derecha, abajo,  izquierda*/
+    padding: 2% 5% 2% 5%;
+    /* padding-right: 1%;
+    padding-left: 1%; */
+    background-color: #D6DBD2;
+}
+   
+.seccion2 .container {
+    width: 30%; /* La imagen ocupará el 49% del ancho disponible */
+ /* Espacio entre el párrafo y la imagen */
+    display: flex;
+    align-items: center;
+    justify-content: flex-star; /* Alinear la imagen a la izquierda */   
+    height: auto;
+}
+.seccion2 .container2 #imagen2{
+    height: 200px;
+    display: flex;
+    align-content: center;
+    margin-left: 33%;
+}
+
+/*Tercera seccion en secciones*/
+.container3_1{
+    display: flex;
+    
+}
+.seccion3_1{
+    width: 27.3%;
+    background-color:#BBC7A4;
+    margin:15px 15px 15px 15px;
+    /* arriba, derecho, abajo, izquierdo */
+    /* margen interno arriba, derecha, abajo,  izquierda*/
+    padding: 2% 2% 2% 2%;
+}
+.seccion3_1:hover{
+    background-color: #E75A7C;
+    color: #F2F5EA;
+}
+
+.subparte1{
+    display: flex;
+    justify-content: center;
+    font-family: "Fascinate", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.imagen-sub1{
+    width: 100%;
+}
+
+.container3_2{
+    display: flex;    
+    justify-content: center;
+}
+#linkSpotify{
+    color: #2C363F;
+    background-color: transparent;
+    text-decoration: underline;
+    margin-right: 0px;
+    padding: 0px 0px;
+    border-radius: 10px;
+
+}
+
+
+
